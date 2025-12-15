@@ -1,0 +1,161 @@
+.producto {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+
+  .productos-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.producto {
+  flex: 1 1 200px; /* Se adapta según la pantalla */
+  max-width: 220px;
+  margin: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3b2f2f;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #6b8e23;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .producto {
+    max-width: 90%;
+  }
+}
+
+}
+.producto img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* Fondo de página y fuente */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo de las tarjetas de productos */
+.producto {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón */
+button {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Un verde más oscuro */
+}
+
+/* Estilo del carrito */
+#carrito-total {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Botones + y - del carrito */
+.carrito-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 3px;
+  transition: background-color 0.3s ease;
+}
+
+.carrito-btn:hover {
+  background-color: #45a049;
+}
+
+/* Botón eliminar */
+.carrito-btn.eliminar {
+  background-color: #484955;
+}
+
+.carrito-btn.eliminar:hover {
+  background-color: #d32f2f;
+}
+#banner-principal h1 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+.promo-card img {
+  transition: transform 0.3s ease;
+}
+
+.promo-card img:hover {
+  transform: scale(1.05);
+}
+footer {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #d4f5d4;
+}
+@media screen and (max-width: 600px) {
+  footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+
